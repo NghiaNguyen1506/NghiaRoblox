@@ -1,7 +1,7 @@
--- discord.gg/tboyroblox
 
 
-shared.LoaderTitle = "Đăng Ký Kênh TBoy Roblox";
+
+shared.LoaderTitle = "Đăng Ký Kênh Nghĩa Roblox";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -96,7 +96,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://83190276951914",
+    Image = "rbxassetid://88345170629932",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
@@ -105,7 +105,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: TBoy Roblox",
+    Text = "Youtube: Nghĩa Roblox",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -313,7 +313,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))();
 local v15 = v14:CreateWindow({
-    Title = "TBoy Roblox Hub",
+    Title = "Nghĩa Roblox Hub",
     SubTitle = "Blox Fruit",
     TabWidth = 160,
     Theme = "Dark",
@@ -2633,7 +2633,7 @@ v23.BorderSizePixel = 0;
 v23.Position = UDim2.new(0.120833337 - 0.1, 0, 0.0952890813 + 0.01, 0);
 v23.Size = UDim2.new(0, 50, 0, 50);
 v23.Draggable = true;
-v23.Image = "http://www.roblox.com/asset/?id=83190276951914";
+v23.Image = "http://www.roblox.com/asset/?id=88345170629932";
 v24.Parent = v23;
 v24.CornerRadius = UDim.new(0, 12);
 v25.Parent = v23;
@@ -3874,7 +3874,7 @@ if Sea3 then
             _G.AutoFindPrehistoric = false;
             if not v513 then
                 v14:Notify({
-                    Title = "TBoy Roblox",
+                    Title = "Nghĩa Roblox",
                     Content = "Đảo Dung Nham Tìm Thấy",
                     Duration = 10
                 });
@@ -3968,7 +3968,7 @@ if Sea3 then
             _G.AutoFindMirage = false;
             if not v513 then
                 v14:Notify({
-                    Title = "TBoy Roblox",
+                    Title = "Nghĩa Roblox",
                     Content = "Đảo Bí Ẩn Tìm Thấy",
                     Duration = 10
                 });
@@ -4062,7 +4062,7 @@ if Sea3 then
             _G.AutoFindFrozen = false;
             if not v513 then
                 v14:Notify({
-                    Title = "TBoy Roblox",
+                    Title = "Nghĩa Roblox",
                     Content = "Đảo Leviathan Tìm Thấy",
                     Duration = 10
                 });
@@ -9078,15 +9078,15 @@ spawn(function()
     pcall(function()
         while wait() do
             if ggame:GetService("Workspace").Map:FindFirstChild("PrehistoricIsland") then
-                v169:SetDesc("Đảo Dung Nham: ✅️");
+                v169:SetDesc("Prehistoric Island: ✅️");
             else
-                v169:SetDesc("Đảo Dung Nham: ❌️");
+                v169:SetDesc("Prehistoric Island: ❌️");
             end
         end
     end);
 end);
 local v170 = v16.Sea:AddToggle("ToggleTPVolcano", {
-    Title = "Bay Đến Đảo Dung Nham",
+    Title = "Tween to Prehistoric Island",
     Description = "",
     Default = false
 });
@@ -9324,7 +9324,7 @@ spawn(function()
     end
 end);
 v14:Notify({
-    Title = "TBoy Roblox",
-    Content = "Tải Xong",
+    Title = "Nghĩa Roblox",
+    Content = "Finished",
     Duration = 10
 });
